@@ -1,0 +1,16 @@
+ALGORITHM TEST1
+VAR
+    nb_mot,nb_voy: INTEGER;
+    c: CHAR;
+BEGIN
+   nb_voy:=0;
+   nb_mot:=0;
+        while(c<>'.')
+        {
+        write('donner un caractere');
+         if(c='o' OR c='y' OR c='a' OR c='e' OR c='i' OR c='u')
+         nb_voy++;
+         if(c=' ')
+        nb_mot++;
+    }
+END

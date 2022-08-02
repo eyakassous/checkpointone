@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        var nb_voy=0;
+        var ch=' ';
+        var nb_mot=0;
+        while(c!='.')
+        {var c=prompt('donner un caractere');
+        ch=ch+c;
+         if(c=='o' || c=='y' || c=='a' || c=='e' || c=='i' || c=='u')
+         nb_voy++;
+         if(c==' ')
+        nb_mot++;
+    }
+   
+    
+       </script> 
+</head>
+<body>
+</body>
+</html>
